@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bruno Barbery | Sites, Landing Pages e Automação</title>
+<meta name="description" content="Sites, landing pages, automações e suporte em computadores para negócios de Corumbá-MS. Peça um orçamento grátis pelo WhatsApp.">
+<meta property="og:title" content="Bruno Barbery | Sites, Landing Pages e Automação">
+<meta property="og:description" content="Sites, landing pages, automações e formatação para negócios de Corumbá-MS.">
+<style>
+  :root{
+    --bg:#0b0b14; --card:#12121f; --line:#23233a; --text:#f2f2f7; --muted:#9a9ab5;
+    --pink:#ff4d8d; --cyan:#27d3e6;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px}
+  .mono{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;color:var(--pink);letter-spacing:.04em}
+  header{position:sticky;top:0;background:rgba(11,11,20,.85);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:10}
+  header .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+  nav a{margin-left:20px;color:var(--muted);font-size:.9rem}
+  nav a:hover{color:var(--text)}
+  .hero{padding:90px 0 70px}
+  h1{font-size:clamp(2rem,6vw,3.4rem);line-height:1.1;margin:14px 0 18px}
+  h1 em{font-style:normal;color:var(--pink)}
+  .hero p{color:var(--muted);max-width:560px;font-size:1.1rem}
+  .btns{margin-top:30px;display:flex;gap:12px;flex-wrap:wrap}
+  .btn{padding:13px 22px;border-radius:10px;font-weight:600;border:1px solid var(--line)}
+  .btn.primary{background:var(--pink);border-color:var(--pink);color:#fff}
+  .btn.primary:hover{filter:brightness(1.1)}
+  .btn:not(.primary):hover{border-color:var(--cyan);color:var(--cyan)}
+  section{padding:60px 0;border-top:1px solid var(--line)}
+  h2{font-size:1.7rem;margin:8px 0 28px}
+  .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px}
+  .card h3{margin-bottom:8px;font-size:1.1rem}
+  .card p{color:var(--muted);font-size:.95rem}
+  .card .tag{display:inline-block;margin-top:14px;font-size:.78rem;color:var(--cyan)}
+  .card.proj{padding:0;overflow:hidden}
+  .card.proj .thumb{height:140px;background:linear-gradient(135deg,#2a1030,#0e2a33);display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:.85rem}
+  .card.proj .body{padding:20px}
+  .steps{counter-reset:s;display:grid;gap:14px}
+  .steps li{list-style:none;counter-increment:s;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px 16px 58px;position:relative}
+  .steps li::before{content:counter(s);position:absolute;left:18px;top:14px;width:28px;height:28px;border-radius:50%;background:var(--pink);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.9rem}
+  .cta{text-align:center}
+  .cta p{color:var(--muted);margin-bottom:24px}
+  footer{padding:30px 0;color:var(--muted);font-size:.85rem;text-align:center;border-top:1px solid var(--line)}
+  .wpp{position:fixed;right:18px;bottom:18px;background:#25d366;color:#04210f;font-weight:700;padding:13px 18px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.4);z-index:20}
+  @media(max-width:560px){nav a:not(:last-child){display:none}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a href="#" class="mono">// bruno.barbery</a>
+    <nav>
+      <a href="#servicos">Serviços</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap hero">
+    <span class="mono">// ATENDIMENTO EM Corumbá-MS</span>
+    <h1>Seu negócio online, <em>sem dor de cabeça</em>.</h1>
+    <p>Crio sites e landing pages que geram contatos, automatizo tarefas repetitivas e cuido do seu computador. Tudo com atendimento próximo, aqui na sua cidade.</p>
+    <div class="btns">
+      <a class="btn primary" href="https://wa.me/5567996780177?text=Ol%C3%A1%20Bruno%2C%20vi%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">Pedir orçamento grátis</a>
+      <a class="btn" href="#portfolio">Ver trabalhos</a>
+    </div>
+  </div>
+
+  <section id="servicos">
+    <div class="wrap">
+      <span class="mono">// SERVIÇOS</span>
+      <h2>O que eu faço por você</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Landing pages e sites</h3>
+          <p>Páginas rápidas, bonitas no celular e prontas para levar o cliente direto ao seu WhatsApp.</p>
+          <span class="tag">Orçamento sem compromisso</span>
+        </div>
+        <div class="card">
+          <h3>Automações</h3>
+          <p>Respostas automáticas, planilhas que se preenchem sozinhas, bots e integrações para você ganhar tempo.</p>
+          <span class="tag">Orçamento sob consulta</span>
+        </div>
+        <div class="card">
+          <h3>Formatação e troca de sistema</h3>
+          <p>Computador lento ou com problema? Formatação, instalação de Windows/Linux, programas e backup dos seus arquivos.</p>
+          <span class="tag">Orçamento sem compromisso</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="wrap">
+      <span class="mono">// PORTFÓLIO</span>
+      <h2>Trabalhos recentes</h2>
+      <div class="grid">
+        <div class="card proj">
+          <div class="thumb">Cardápio digital + pedido no WhatsApp</div>
+          <div class="body">
+            <h3>Cardápio digital para pizzaria</h3>
+            <p>Landing page com cardápio completo, montagem de pizza por tamanho e sabor, carrinho e pedido enviado direto para o WhatsApp da pizzaria.</p>
+            <span class="tag">Projeto para cliente · Corumbá-MS</span>
+          </div>
+        </div>
+        <div class="card proj">
+          <div class="thumb">Automação em Python</div>
+          <div class="body">
+            <h3>Scripts e ferramentas em Python</h3>
+            <p>Scripts que automatizam cálculos e conversões do dia a dia, feitos para poupar o tempo de quem faz tudo na mão.</p>
+            <a class="tag" href="https://github.com/yhelk/sniffer-test-python" target="_blank" rel="noopener">Ver código →</a>
+          </div>
+        </div>
+        <div class="card proj">
+          <div class="thumb">Seu projeto aqui</div>
+          <div class="body">
+            <h3>O próximo pode ser o seu</h3>
+            <p>Conte o que seu negócio precisa e eu monto uma proposta: site, landing page ou automação.</p>
+            <a class="tag" href="#contato">Pedir orçamento →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="como-funciona">
+    <div class="wrap">
+      <span class="mono">// COMO FUNCIONA</span>
+      <h2>Simples e sem surpresa</h2>
+      <ol class="steps">
+        <li><strong>Conversa rápida.</strong> Você me conta o que precisa pelo WhatsApp.</li>
+        <li><strong>Orçamento fechado.</strong> Valor e prazo combinados antes de começar.</li>
+        <li><strong>Execução.</strong> Você acompanha e pede ajustes durante o trabalho.</li>
+        <li><strong>Entrega e suporte.</strong> Fica tudo funcionando e eu continuo disponível.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="wrap cta">
+      <span class="mono">// CONTATO</span>
+      <h2>Vamos conversar?</h2>
+      <p>Orçamento sem compromisso. Respondo o mais rápido possível.</p>
+      <div class="btns" style="justify-content:center">
+        <a class="btn primary" href="https://wa.me/5567996780177?text=Ol%C3%A1%20Bruno%2C%20vi%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+        <a class="btn" href="https://instagram.com/ramirezz.py" target="_blank" rel="noopener">@ramirezz.py</a>
+        <a class="btn" href="https://github.com/yhelk" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>© 2026 Bruno Barbery · Corumbá-MS</footer>
+
+<a class="wpp" href="https://wa.me/5567996780177?text=Ol%C3%A1%20Bruno%2C%20vi%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">WhatsApp</a>
+
+</body>
+</html>
